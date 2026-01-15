@@ -1,0 +1,38 @@
+@font-face {
+    font-family: wild;
+    src: url(./Storm\ Gust.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-image: url(./codepic.jpeg);
+    
+    background-size: cover;
+    /* background-position: center; */
+}
+#bhay{
+    margin-top: 180px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    color: rgb(235, 239, 241);
+    text-align: center;
+    font-family: wild;
+}
+button{
+    margin-bottom:500px;
+    margin-left: 700px;
+    margin-right: 600px;
+    padding: 15px 30px;
+    font-size: 600;
+    border-radius: 15px;
+    background-color:rgb(129, 129, 221); 
+}
+
+
