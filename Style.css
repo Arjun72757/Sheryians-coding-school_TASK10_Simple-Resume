@@ -1,0 +1,57 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-image: url(./iphone.jpg);
+    background-color: black;
+    background-size: cover;
+    background-position: center 210px;
+    background-repeat: no-repeat;
+}
+#main{
+    padding: 40px;
+    background-color: rgb(59, 49, 49);
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    font-size: 50x;
+} 
+.rip{
+    font-weight: 100;
+}
+h1{
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+    font-size: 90px;
+    font-weight: 100;
+}
+p{
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+    color: white;
+}
+#button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+#button button{
+    background-color: rgb(0, 38, 255);
+    color: rgb(254, 251, 251);
+    border-radius: 30px;
+    font-size: 20px;
+    padding: 15px;
+    border: 5px solid rgb(28, 18, 65);
+}
+
+
